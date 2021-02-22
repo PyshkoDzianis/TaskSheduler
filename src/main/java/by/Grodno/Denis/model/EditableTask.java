@@ -7,7 +7,6 @@ public class EditableTask extends HomeWork {
 
     public EditableTask(String name, String dueDate, int number, String newTask) {
 
-
         super(name, dueDate, number);
         this.newTask = newTask;
     }

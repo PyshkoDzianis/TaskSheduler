@@ -4,7 +4,7 @@ import java.util.List;
 
 public interface User<T> {
 
-    User<T> id;
+    T getId();
     List<Task> getTasks();
 
 }
