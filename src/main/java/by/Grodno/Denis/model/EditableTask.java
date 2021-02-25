@@ -1,7 +1,7 @@
 package main.java.by.Grodno.Denis.model;
 
-public class EditableTask extends HomeWork {
 
+public class EditableTask extends HomeWork {
 
     private final String newTask;
 
@@ -15,4 +15,5 @@ public class EditableTask extends HomeWork {
     public String getHomeWorkType() {
         return null;
     }
+
 }
