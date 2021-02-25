@@ -5,6 +5,6 @@ import java.util.List;
 public interface User<T> {
 
     T getId();
-    List<Task> getTasks();
+    List< Task > getTasks();
 
 }

@@ -5,7 +5,7 @@ interface Editable {
     void edit(String name);
 }
 
-abstract class Homework implements Editable {
+   abstract class Homework implements Editable {
 
     private String name;
 

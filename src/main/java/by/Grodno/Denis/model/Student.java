@@ -4,7 +4,8 @@ import java.util.function.Consumer;
 
 public class Student {
     static public Student create(Consumer<UserBuilder> buildingFunction) {
-        return new Student().build(buildingFunction);
+        Student build = new Student().build(buildingFunction);
+        return build;
     }
 
     private String name;

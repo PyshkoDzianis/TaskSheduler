@@ -5,7 +5,7 @@ public abstract class BaseUser<T> implements User<T> {
     protected List<Task> tasks;
 
     @Override
-    public List<Task> getTasks() {
+    public List<Task > getTasks() {
         return tasks;
     }
 }
