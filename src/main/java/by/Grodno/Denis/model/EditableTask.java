@@ -1,19 +1,25 @@
 package main.java.by.Grodno.Denis.model;
 
 
-public class EditableTask extends HomeWork {
+public class EditableTask extends MainTask {
 
     private final String newTask;
 
-    public EditableTask(String name, String dueDate, int number, String newTask) {
+    public EditableTask(String name, String dueDate,  String newTask) {
 
-        super(name, dueDate, number);
+        super(name, dueDate);
         this.newTask = newTask;
+
     }
 
     @Override
-    public String getHomeWorkType() {
+    public String getMainTaskType() {
         return null;
     }
 
+
+    @Override
+    public int compareTo(Object o) {
+        return 0;
+    }
 }

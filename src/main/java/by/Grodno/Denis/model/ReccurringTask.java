@@ -1,17 +1,17 @@
 package main.java.by.Grodno.Denis.model;
 
-public class ReccurringTask extends HomeWork {
+public class ReccurringTask extends MainTask {
 
     private int count;
 
 
     public ReccurringTask(String name, String dueDate, int number, int count) {
-        super(name, dueDate, number);
+        super(name, dueDate);
         this.count = count;
     }
 
     @Override
-    public String getHomeWorkType() {
+    public String getMainTaskType() {
         return null;
     }
 
